@@ -8,8 +8,6 @@ pool:
 
 steps:
 - task: Maven@3
-- script: 
-    mvn clean test
   inputs:
     mavenPomFile: 'pom.xml'
     mavenOptions: '-Xmx3072m'
@@ -19,3 +17,6 @@ steps:
     publishJUnitResults: false
     testResultsFiles: '**/TEST-*.xml'
     goals: 'package'
+
+- script: 
+    mvn clean test
