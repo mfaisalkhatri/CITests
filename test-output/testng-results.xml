@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="384" started-at="2018-10-23T04:11:27Z" finished-at="2018-10-23T04:11:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="384" started-at="2018-10-23T04:11:27Z" finished-at="2018-10-23T04:11:28Z">
+      <class name="com.mfaisalkhatri.citests.tests.UnitTest">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.mfaisalkhatri.citests.tests.UnitTest@cc285f4]" name="test1" duration-ms="310" started-at="2018-10-23T04:11:27Z" finished-at="2018-10-23T04:11:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.mfaisalkhatri.citests.tests.UnitTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
