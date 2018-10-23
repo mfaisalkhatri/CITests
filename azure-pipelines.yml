@@ -17,3 +17,5 @@ steps:
     publishJUnitResults: false
     testResultsFiles: '**/TEST-*.xml'
     goals: 'package'
+ - script: |
+    mvn clean test
