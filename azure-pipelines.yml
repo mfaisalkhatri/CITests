@@ -19,8 +19,7 @@ steps:
     goals: 'package'
 
 - script: 
-      mvn clean install
-- bash:	  
-      chmod +x /home/vsts/work/1/s/target/test-classes/drivers/chromedriver
-- script: 
+      mvn clean install  
+- bash: |
+    chmod +x /home/vsts/work/1/s/target/test-classes/drivers/chromedriver
     mvn test
