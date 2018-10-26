@@ -19,4 +19,6 @@ steps:
     goals: 'package'
 
 - script: 
+    chmod +x /home/vsts/work/1/s/drivers/chromedriver
     mvn clean test
+	

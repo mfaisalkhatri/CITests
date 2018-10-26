@@ -11,7 +11,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 import com.configreader.configreader.main.PropertiesReader;
-import com.configreader.configreader.utils.OSCheck;
 
 /**
  * @author Faisal Khatri
