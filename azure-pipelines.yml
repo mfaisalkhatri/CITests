@@ -18,8 +18,8 @@ steps:
     testResultsFiles: '**/TEST-*.xml'
     goals: 'package'
 
-- script: mvn clean install -DskipTests=true
-- script: chmod +x /home/vsts/work/1/s/target/test-classes/drivers/chromedriver
-
+- script: 
+      chmod +x /home/vsts/work/1/s/target/test-classes/drivers/chromedriver
+	  
 - script: 
     mvn test
