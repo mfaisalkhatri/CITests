@@ -23,5 +23,3 @@ steps:
       chmod +x /home/vsts/work/1/s/target/test-classes/drivers/chromedriver
 - script: 
     mvn test
-	
-	
